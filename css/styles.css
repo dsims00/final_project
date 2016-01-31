@@ -1,0 +1,68 @@
+html, body {
+
+}
+
+.header_image{
+	background-image: url(../images/wooden.jpg);
+	width: 1350px;
+	height: 135px;
+}
+
+.header_image img{
+	opacity: .3;
+	/*margin: 10px;*/
+	width: 360px;
+	height: 140px;
+	margin-left: 0px;
+	padding-bottom: 10px;
+}
+
+.container{
+	position: relative;
+	width: 1350px;
+	height: 1600px;
+	background-image: url(../images/beerbar.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;	
+    opacity: 0.5;
+}
+
+.popup {
+	position: absolute;
+	width: 350px;
+	height: 400px;
+	background-color: white;
+	margin: 0 auto;
+	border: solid brown 1px;
+	left: 0;
+	right: 0;
+	margin-top: 100px;	
+	background-color: #D4BEA9
+}
+
+.popup p{
+	font-size: 30px;
+	color: black;
+}
+
+.popup p strong{
+	margin: 19px;
+}
+
+.popup img{
+	width: 150px;
+	height: auto;
+	padding-left: 95px;
+}
+
+.popup .drinking{
+	font-size: 18px;
+	text-align: center;
+}
+
+.popup p.twentyone {
+	font-size: 30px;
+	padding-left: 50px;
+	
+}
