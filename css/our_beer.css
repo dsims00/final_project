@@ -1,3 +1,8 @@
+html, body{
+	font-family: Garamond;
+	font-weight: normal;
+}
+
 .header_image{
 	background-image: url(../images/wooden.jpg);
 	width: 1350px;
@@ -36,6 +41,10 @@
 	font-size: 40px;
 }
 
+#navigation ul a{
+	color: white;
+}
+
 .container{
 	/*margin-top: -100px;*/
 	padding-top: 100px;
@@ -50,16 +59,17 @@
 
 .popup {
 	position: absolute;
-	margin-top: 100px;
+	margin-top: 67px;
 	width: 548px;
 	height: auto;
 	background-color: white;
 	margin: 0 auto;
-	border: solid brown 1px;
-	left: 0;
+	/*border: solid brown 1px;*/
+	left: -183px;
 	right: 0;
-	margin-top: 100px;	
-	background-color: #D4BEA9;
+	
+	background-image: url(../images/textured_paper.png);	
+	/*background-color: #D4BEA9;*/
 	
 }
 
@@ -67,20 +77,61 @@
 	text-align: center;
 }
 
+.popup p{
+	width: 400px;
+	margin: 0 auto;
+	font-size: 18px;
+}
+
 .container img{
-	position: absolute;
+	/*position: absolute;*/
 	width: 400px;
 	height: 200px;
 	margin: 0 auto;
 	left: 0;
 	right: 0;
 	margin-bottom: 0px;	
+	margin-left: 73px;
+
 }
 
 .social{
-	width: 200px;
+	width: 300px;
 	height: 500px;
 	margin: 10px;
-	border: black solid 1px;
+	margin-right: 151px;
+	/*border: black solid 1px;*/
 	float: right;
+	margin-top: 50px;
+	margin-left: 10px;
 }
+
+.social h1{
+	border-bottom: 1px solid black;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.social .social-media li{
+	list-style: none;
+	width: 40px;
+	height: 40px;
+	float: left;
+	/*margin-left: 10px;*/
+	margin-right: 30px;
+
+}
+
+.social .social-media li a img{
+	width: 55px;
+	height: 55px;
+	/*margin-left: 10px;	*/
+	/*margin-right: 10px;*/
+	margin: 0 auto;
+}
+
+
+
+
+
+
