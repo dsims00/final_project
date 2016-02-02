@@ -130,6 +130,52 @@ html, body{
 	margin: 0 auto;
 }
 
+@media (max-width: 480px) {
+	.header_image, #navigation, .popup, ul.social-media {
+		float: none;
+	}
+
+	.header_image{
+		width: 100%;
+		height: auto;
+		/*margin: 0 auto;*/
+	}
+
+	#popup.popup{
+		width: 100%;
+		height: auto;
+		margin-top: 0px;
+		margin-right: 0px;
+	}
+
+	#popup.popup img{
+		margin-left: 0px;
+	}
+
+	.popup h1{
+		padding-top: 10px;
+	}
+
+	nav#navigation.menu-header-container ul{
+		padding: 10px;
+		padding-right: 0px;
+		padding-left: 7px;
+	}
+
+	.header_image#navigation ul li a {
+		padding-left: 10px;
+	}
+
+	#container.container{
+		width: 100%;
+		height: auto;
+		padding-bottom: 10px;
+		padding: 0px;
+	}
+
+
+}	
+
 
 
 

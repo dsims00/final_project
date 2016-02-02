@@ -94,6 +94,43 @@ html, body {
 
 .popup p.twentyone {
 	font-size: 30px;
-	padding-left: 50px;
-	
+	padding-left: 50px;	
+}
+
+@media (max-width: 480px) {
+	.header_image, #navigation, #navigation ul, #navigation ul li, #navigation ul li a, .popup{
+		float: none;
+	}
+
+	.header_image{
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		padding-left: 0px;
+	}
+
+	nav#navigation.menu-header-container ul{
+		padding-left: 0px;
+	}
+
+	/*.container{
+		width: 100%;
+		height: auto;
+	}*/
+
+	.navigation ul li {
+		width: 100%;
+		height: auto;
+		
+	}
+
+	.navigation ul li a{
+		width: 100px;
+	}
+
+	.popup#popup{
+		width: 100%;
+		height: auto;
+		margin-top: 0px;
+	}
 }
