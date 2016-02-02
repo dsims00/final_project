@@ -20,12 +20,17 @@
 
 // }
 
+function yes() {
+	setTimeout(function() {
+	document.getElementById('popup').style.opacity = "0.0";
+}, 1000);	
+}
+
+function no() {
+	window.location.replace("http://www.google.com");
+}
 
 
-
-// setTimeout(function() {
-// 	document.getElementById('popup').style.opacity = "0.0";
-// }, 3000);	
 
 // window.onload=changeOpacity;
 
