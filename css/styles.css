@@ -31,7 +31,7 @@ html, body {
 #navigation ul li {
 	display: inline-block;
 	margin: 10px;
-	margin-right: 50px;
+	margin-right: 91px;
 	margin-top: 40px;
 	font-size: 20px;
 	color: white;
@@ -65,11 +65,11 @@ html, body {
 	height: 400px;
 	background-color: white;
 	margin: 0 auto;
-	border: solid brown 1px;
+	border: solid black 3px;
 	left: 0;
 	right: 0;
 	margin-top: 100px;	
-	background-color: #D4BEA9
+	/*background-color: #D4BEA9*/
 }
 
 .popup p{
@@ -85,6 +85,7 @@ html, body {
 	width: 150px;
 	height: auto;
 	padding-left: 95px;
+
 }
 
 .popup .drinking{
@@ -97,8 +98,10 @@ html, body {
 	padding-left: 50px;	
 }
 
+
+
 @media (max-width: 480px) {
-	.header_image, #navigation, #navigation ul, #navigation ul li, #navigation ul li a, .popup{
+	.header_image, #navigation, #navigation ul, #navigation ul li, #navigation ul li a, .popup#popup{
 		float: none;
 	}
 
@@ -109,14 +112,20 @@ html, body {
 		padding-left: 0px;
 	}
 
-	nav#navigation.menu-header-container ul{
-		padding-left: 0px;
+	.header_image img{
+		display: none;
 	}
 
-	/*.container{
+	nav#navigation.menu-header-container ul li a{
+		padding-left: 0px;
+		margin-left: 10px;
+		display: inline-block;
+	}
+
+	.container{
 		width: 100%;
 		height: auto;
-	}*/
+	}
 
 	.navigation ul li {
 		width: 100%;

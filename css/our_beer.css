@@ -30,7 +30,7 @@ html, body{
 #navigation ul li{
 	display: inline-block;
 	margin: 10px;
-	margin-right: 50px;
+	margin-right: 91px;
 	margin-top: 40px;
 	font-size: 20px;
 	color: white;
@@ -139,6 +139,7 @@ html, body{
 		width: 100%;
 		height: auto;
 		/*margin: 0 auto;*/
+		margin-bottom: 0px;
 	}
 
 	#popup.popup{
@@ -146,25 +147,30 @@ html, body{
 		height: auto;
 		margin-top: 0px;
 		margin-right: 0px;
+		background-image: none;
 	}
 
 	#popup.popup img{
-		margin-left: 0px;
+		margin-left: 10px;
+		margin-right: 10px;
 	}
 
 	.popup h1{
 		padding-top: 10px;
 	}
+	.header_image img{
+		display: none;
+	}
 
-	nav#navigation.menu-header-container ul{
+	nav#navigation.menu-header-container ul li a{
 		padding: 10px;
 		padding-right: 0px;
-		padding-left: 7px;
+		display: inline-block;
 	}
 
-	.header_image#navigation ul li a {
-		padding-left: 10px;
-	}
+	
+
+
 
 	#container.container{
 		width: 100%;
