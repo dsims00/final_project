@@ -1,5 +1,6 @@
 html, body {
-
+	font-family: Garamond;
+	font-weight: normal;
 }
 
 .header_image{
@@ -24,9 +25,10 @@ html, body {
 
 #navigation ul{
 	list-style: none;
+	color: white;
 }
 
-#navigation ul li{
+#navigation ul li {
 	display: inline-block;
 	margin: 10px;
 	margin-right: 50px;
@@ -34,6 +36,11 @@ html, body {
 	font-size: 20px;
 	color: white;
 	opacity: .8;
+	
+}
+
+#navigation ul li a{
+	color: white;
 }
 
 #navigation ul .title{
