@@ -20,13 +20,13 @@
 
 // }
 
-function yes() {
+function hidePopup() {
 	setTimeout(function() {
 	document.getElementById('popup').style.opacity = "0.0";
 }, 1000);	
 }
 
-function no() {
+function goToGoogle() {
 	window.location.replace("http://www.google.com");
 }
 
