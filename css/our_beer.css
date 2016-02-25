@@ -1,0 +1,189 @@
+html, body{
+	font-family: Garamond;
+	font-weight: normal;
+}
+
+.header_image{
+	background-image: url(../images/wooden.jpg);
+	width: 1350px;
+	height: 135px;
+}
+
+.header_image img{
+	opacity: .3;
+	/*margin: 10px;*/
+	width: 360px;
+	height: 140px;
+	margin-left: 0px;
+	padding-bottom: 10px;
+}
+
+
+#navigation{
+	float: right;
+}
+
+#navigation ul{
+	list-style: none;
+}
+
+#navigation ul li{
+	display: inline-block;
+	margin: 10px;
+	margin-right: 91px;
+	margin-top: 40px;
+	font-size: 20px;
+	color: white;
+	opacity: .8;
+}
+
+#navigation ul .title{
+	font-size: 40px;
+}
+
+#navigation ul a{
+	color: white;
+}
+
+.container{
+	/*margin-top: -100px;*/
+	padding-top: 100px;
+	width: 1350px;
+	height: 1600px;
+	background-image: url(../images/textured_paper.png);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;	
+    opacity: 0.7;
+}
+
+.popup {
+	position: absolute;
+	margin-top: 67px;
+	width: 548px;
+	height: auto;
+	background-color: white;
+	margin: 0 auto;
+	/*border: solid brown 1px;*/
+	left: -183px;
+	right: 0;
+	
+	background-image: url(../images/textured_paper.png);	
+	/*background-color: #D4BEA9;*/
+	
+}
+
+.popup h1{
+	text-align: center;
+}
+
+.popup p{
+	width: 400px;
+	margin: 0 auto;
+	font-size: 18px;
+}
+
+.container img{
+	/*position: absolute;*/
+	width: 400px;
+	height: 200px;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	margin-bottom: 0px;	
+	margin-left: 73px;
+
+}
+
+.social{
+	width: 300px;
+	height: 500px;
+	margin: 10px;
+	margin-right: 151px;
+	/*border: black solid 1px;*/
+	float: right;
+	margin-top: 50px;
+	margin-left: 10px;
+}
+
+.social h1{
+	border-bottom: 1px solid black;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.social .social-media li{
+	list-style: none;
+	width: 40px;
+	height: 40px;
+	float: left;
+	/*margin-left: 10px;*/
+	margin-right: 30px;
+
+}
+
+.social .social-media li a img{
+	width: 55px;
+	height: 55px;
+	/*margin-left: 10px;	*/
+	/*margin-right: 10px;*/
+	margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+	.header_image, #navigation, .popup, ul.social-media {
+		float: none;
+	}
+
+	.header_image{
+		width: 100%;
+		height: auto;
+		/*margin: 0 auto;*/
+		margin-bottom: 0px;
+	}
+
+	#popup.popup{
+		width: 100%;
+		height: auto;
+		margin-top: 0px;
+		margin-right: 0px;
+		background-image: none;
+	}
+
+	#popup.popup img{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.popup h1{
+		padding-top: 10px;
+	}
+	.header_image img{
+		display: none;
+	}
+
+	nav#navigation.menu-header-container ul li a{
+		padding: 10px;
+		padding-right: 0px;
+		display: inline-block;
+	}
+
+	
+
+
+
+	#container.container{
+		width: 100%;
+		height: auto;
+		padding-bottom: 10px;
+		padding: 0px;
+	}
+
+
+}	
+
+
+
+
+
+

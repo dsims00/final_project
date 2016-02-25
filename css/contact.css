@@ -1,0 +1,174 @@
+html, body {
+	font-family: Garamond;
+	font-weight: normal;
+}
+
+.header_image{
+	background-image: url(../images/wooden.jpg);
+	width: 1350px;
+	height: 135px;
+}
+
+.header_image img{
+	opacity: .3;
+	/*margin: 10px;*/
+	width: 360px;
+	height: 140px;
+	margin-left: 0px;
+	padding-bottom: 10px;
+}
+
+
+#navigation{
+	float: right;
+}
+
+#navigation ul{
+	list-style: none;
+}
+
+#navigation ul li{
+	display: inline-block;
+	margin: 10px;
+	margin-right: 91px;
+	margin-top: 40px;
+	font-size: 20px;
+	color: white;
+	opacity: .8;
+}
+
+#navigation ul .title{
+	font-size: 40px;
+
+}
+
+#navigation ul a{
+	color: white;
+}
+
+.container{
+	/*margin-top: -100px;*/
+	padding-top: 100px;
+	width: 1350px;
+	height: auto;
+	background-image: url(../images/textured_paper.png);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;	
+    opacity: 0.7;
+}
+
+.contact{
+	width: 500px;
+	height: 700px;
+	margin: 10px;
+	margin-left: 250px;
+	padding: 10px;
+	
+}
+
+.container .contact input, textarea, select, button, label {
+  width : 150px;
+  margin: 0;
+  box-sizing: border-box;
+  vertical-align: top;
+  display: block;
+
+}
+
+.container .contact input, textarea{
+	width: 21em; 
+    border-radius: 2px; 
+    border: solid 1px #ccc; 
+    padding: 0.4em; 
+    background-color: #f5f5f5; 
+    box-shadow: inset 0 2px 3px rgba(0,0,0,0.2);
+}
+
+textarea { 
+    width:100%;
+    height:10em; 
+}
+
+.container .contact input{
+	margin-bottom: 20px;
+}
+
+input[type="message"] {
+	height: 75px;
+}
+	 
+.hours{
+	width: 300px;
+	height: 500px;
+	margin: 10px;
+	margin-right: 151px;
+	/*border: black solid 1px;*/
+	float: right;
+	margin-top: -700px;
+	margin-left: 200px;
+}
+
+.hours ul{
+	list-style: none;
+	font-weight: bold;
+	padding: 3px;
+	font-size: 1.2em;
+}
+
+
+.hours p{
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+footer{
+	background-color: black;
+	color: white;	
+	height: 211px;
+}
+
+footer ul{
+	margin-left: 500px;
+}
+
+footer ul li{
+	list-style-type: none;
+	float: left;
+	margin-right: 84px;
+	text-align: center;
+	font-size: 14px;
+	font-family: Helvetica;
+	font-weight: 500;
+	margin: 0 auto;
+	margin-left: 30px;
+}
+
+footer ul li a img{
+	padding-top: 15px;
+	width: 50px;
+	height: auto;
+	margin: 0 auto;
+}
+
+
+h4.address{
+
+}
+
+h5.project{
+	margin: 44px;
+	padding-left: 526px;
+	width: 300px;
+	height: auto;
+	padding-top: 88px;
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
